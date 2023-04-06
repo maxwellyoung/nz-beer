@@ -12,10 +12,16 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-slate-800 text-white">
-        <div className="text-2xl">
+      <main className="flex  h-screen w-screen flex-col items-center justify-center bg-slate-800 text-white">
+        <div className="text-center text-2xl">
           Which is the best <span className="italic text-red-500">NZ </span>
           Beer?
+        </div>
+        <div className="p-2"></div>
+        <div className="flex max-w-2xl items-center justify-between rounded border p-8">
+          <div className="h-16 w-16 bg-red-200"></div>
+          <div className="p-8">Vs</div>
+          <div className="h-16 w-16 bg-red-200"></div>
         </div>
       </main>
     </>

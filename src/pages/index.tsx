@@ -12,8 +12,11 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-slate-700 text-white">
-        <div>Which is the best NZ Beer?</div>
+      <main className="flex min-h-screen flex-col items-center justify-center bg-slate-800 text-white">
+        <div className="text-2xl">
+          Which is the best <span className="italic text-red-500">NZ </span>
+          Beer?
+        </div>
       </main>
     </>
   );
